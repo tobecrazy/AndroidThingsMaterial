@@ -8,3 +8,4 @@ AndroidThingsMaterial
 [https://github.com/leinardi/androidthings-drivers](https://github.com/leinardi/androidthings-drivers)
 # Third part github
 [https://github.com/amitshekhariitbhu/awesome-android-things](https://github.com/amitshekhariitbhu/awesome-android-things)
+[https://github.com/riggaroo/android-things-electricity-monitor](https://github.com/riggaroo/android-things-electricity-monitor)
