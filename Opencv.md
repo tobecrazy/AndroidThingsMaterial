@@ -19,7 +19,8 @@
 
 ### 1.配置好树莓派的Raspbian操作系统
 
-本教程使用的系统是2019年6月27日树莓派官方发布的Raspbian-ruter操作系统，[官方下载链接](https://www.raspberrypi.org/downloads/raspbian/)。
+本教程使用的系统是2019年9月26日树莓派官方发布的
+[Raspbian Buster](https://www.raspberrypi.org/downloads/raspbian/) 操作系统，[官方下载链接](https://www.raspberrypi.org/downloads/raspbian/)。
 
 ### 2.如果你有树莓派官方的摄像头Picamera，需按如下方法正确配置
 
@@ -187,10 +188,8 @@ wget https://github.com/opencv/opencv_contrib/archive/4.2.0.zip
 
 ```shell
 cd ~/Downloads
-mv 4.2.0.zip opencv-4.2.0.zip
-mv 4.2.0.zip.1 opencv_contrib-4.2.0.zip
-unzip opencv-4.2.0.zip
-unzip opencv_contrib-4.2.0.zip
+unzip 4.2.0.zip #means unzip opencv-4.2.0.zip
+unzip  4.2.0.zip.1  #means unzip opencv_contrib-4.2.0.zip
 ```
 
 ### 5、设置编译参数
