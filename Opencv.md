@@ -172,9 +172,9 @@ sudo apt-get install libatlas-base-dev gfortran -y
 ```shell
 cd
 
-wget https://github.com/Itseez/opencv/archive/4.2.0.zip
+wget https://github.com/opencv/opencv/archive/4.2.0.zip
 
-wget https://github.com/Itseez/opencv_contrib/archive/4.2.0.zip
+wget https://github.com/opencv/opencv_contrib/archive/opencv_contrib-4.2.0.zip
 ```
 
 >如果下载速度很慢（比如每秒几个KB）：
