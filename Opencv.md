@@ -236,7 +236,8 @@ make
 `make`命令执行完成之后，执行下面的命令，执行命令需要一分钟：
 
 ```shell
-sudo make insall
+sudo make install
+# finally install opencv
 ```
 
 ### 7、在Python3上测试OpenCV
