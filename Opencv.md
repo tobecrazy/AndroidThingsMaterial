@@ -174,7 +174,7 @@ cd
 
 wget https://github.com/opencv/opencv/archive/4.2.0.zip
 
-wget https://github.com/opencv/opencv_contrib/archive/opencv_contrib-4.2.0.zip
+wget https://github.com/opencv/opencv_contrib/archive/4.2.0.zip
 ```
 
 >如果下载速度很慢（比如每秒几个KB）：
@@ -186,7 +186,9 @@ wget https://github.com/opencv/opencv_contrib/archive/opencv_contrib-4.2.0.zip
 解压这两个压缩包
 
 ```shell
-cd /home/pi/Downloads
+cd ~/Downloads
+mv 4.2.0.zip opencv-4.2.0.zip
+mv 4.2.0.zip.1 opencv_contrib-4.2.0.zip
 unzip opencv-4.2.0.zip
 unzip opencv_contrib-4.2.0.zip
 ```
