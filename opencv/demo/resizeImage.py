@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import cv2
+
 def resizeFrame(frame, scale=0.7):
     print(frame.shape)
     width = int(frame.shape[1] * scale)

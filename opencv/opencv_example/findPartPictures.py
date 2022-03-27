@@ -1,17 +1,16 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Read image
-img = cv2.imread("../../images/limeng.jpeg").astype(np.float32)
+img = cv2.imread("../../images/limeng1.png").astype(np.float32)
 H, W, C = img.shape
 
-# Read templete image
+# Read template image
 temp = cv2.imread("../../images/limeng_part.jpeg").astype(np.float32)
 Ht, Wt, Ct = temp.shape
 
 
-# Templete matching
+# Template matching
 i, j = -1, -1
 v = 255 * H * W * C
 for y in range(H-Ht):
