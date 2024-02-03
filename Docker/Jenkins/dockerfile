@@ -1,0 +1,10 @@
+FROM jenkins/jenkins:latest
+MAINTAINER Young <dbyl@dbyl.cn>
+USER root
+RUN apt-get update -y && apt-get install -y python3 python3-pip python3-dev 
+RUN pip3 install --upgrade pip --break-system-packages
+RUN pip3 install pillow -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com  --break-system-packages
+RUN apt-get update --fix-missing&& apt-get install -y maven
+RUN apt-get install -y vim
+RUN pip install qrcode[pil]  --break-system-packages
+USER jenkins
